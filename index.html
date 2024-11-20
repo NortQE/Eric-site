@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ульяновська Юлія Вікторівна</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #444;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #4a90e2, #a8d5e2);
+      color: #fff;
+      padding: 30px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav li {
+      margin-right: 20px;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 8px 15px;
+      border-radius: 4px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header nav a:hover {
+      background-color: #a8d5e2;
+      color: #004d73;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    /* About Section */
+    #about {
+      padding: 60px 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: #eef7fa;
+    }
+
+    #about img {
+      max-width: 100%;
+      height: auto;
+      max-width: 300px;
+      margin-right: 40px;
+      border-radius: 10%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    #about h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    #about p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+    }
+
+    section h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #004d73;
+      position: relative;
+    }
+
+    section h2:after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 4px;
+      background-color: #a8d5e2;
+      margin: 10px auto 0;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 1.8;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Contact Section */
+    #contact {
+      background-color: #004d73;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    #contact p {
+      font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #004d73;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    /* Animations */
+    section {
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      header .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      #about {
+        flex-direction: column;
+      }
+
+      #about img {
+        margin: 0 0 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Ульяновська Юлія Вікторівна</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#teaching">Навчання</a></li>
+          <li><a href="#science">Наука</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Other sections remain the same -->
+</body>
+</html>
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div>
+      <h2>Про мене</h2>
+      <p>Ульяновська Юлія Вікторівна, завідувач кафедри комп'ютерних наук та інженерії програмного забезпечення в Університеті митної справи та фінансів, доцент, кандидат технічних наук.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Teaching Section -->
+<section id="teaching">
+  <div class="container">
+    <h2>Перелік замовників</h2>
+    <p>Державна митна служба України, Підприємства та організації - державні, комерційні та приватні фірми, які займаються розробкою та експлуатацією інформаційних систем.</p>
+  </div>
+  <div class="container">
+    <h2>Положення про кафедру</h2>
+    <p>Кафедра є випускною за спеціальностями 121 «Інженерія програмного забезпечення» та 122 «Комп’ютерні науки». Кафедра налічує 12 викладачів, серед них – 1 доктор наук, 8 кандидатів наук, 2 старших викладача, 1 викладач.</p>
+  </div>
+</section>
+
+<!-- Science Section -->
+<section id="science">
+  <div class="container">
+    <h2>Наукова діяльність</h2>
+    <p>На кафедрі проводяться дослідження за науковою темою "Науково-методологічні основи математичного та комп'ютерного моделювання процесів контролю та управління в умовах виникнення надзвичайних ситуацій". Головна мета - оптимізація управління конфігурацією хмарних інфраструктур для миттєвого контролю та покращення надійності хмарних сервісів.</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2>Контакти</h2>
+    <p>м. Дніпро, вул. В. Вернадського, 2/4, каб.№423; тел. 756-05-60</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Ульяновська Юлія Вікторівна</p>
+</footer>
+</body>
+</html>
